@@ -6,15 +6,28 @@ A collection of hands-on web development exercises — built to learn, experimen
 
 ## 📁 What's Inside
 
-This repo contains small, focused projects and exercises covering core web development concepts:
+This repository contains small, focused projects and exercises covering core web development concepts.
+
+Currently practicing:
 
 - **HTML** — Semantic structure, forms, accessibility
+- **CSS** — Layout, styling, responsiveness *(coming soon)*
+- **JavaScript** — DOM manipulation and interactivity *(planned)*
 
 ---
 
 ## 🎯 Purpose
 
-This is my personal web dev training ground. Each folder is an isolated exercise or mini-project I built while practicing a specific concept. No frameworks, no fluff — just fundamentals.
+This repository serves as my **personal web development practice space**.
+
+Each folder represents a **separate exercise or mini project** where I experiment with different concepts while learning frontend development.
+
+Goals of this repository:
+
+- Strengthen fundamentals of web development
+- Practice writing clean and structured code
+- Experiment with UI layouts and components
+- Track my progress while learning
 
 ---
 
@@ -22,36 +35,63 @@ This is my personal web dev training ground. Each folder is an isolated exercise
 
 ```
 web_dev_practice/
+│
 ├── html/
-
+│   ├── exercise1/
+│   ├── exercise2/
+│   └── ...
+│
+└── README.md
 ```
 
-> Structure evolves as new exercises are added.
+> The structure will evolve as more exercises and topics are added.
 
 ---
 
 ## 🚀 How to Use
 
-Each folder is self-contained. To run any exercise:
+1. Clone the repository
 
-1. Clone the repo:
-   ```bash
-   git clone https://github.com/your-username/web_dev_practice.git
-   ```
-2. Navigate to a folder and open `index.html` in your browser — or use [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) in VS Code.
+```bash
+git clone https://github.com/anujsavita929-alt/web_dev_practice.git
+```
+
+2. Open the project folder
+
+```
+cd web_dev_practice
+```
+
+3. Navigate to any exercise folder and open `index.html` in your browser.
+
+You can also use **Live Server** extension in VS Code for easier development.
 
 ---
 
 ## 📈 Progress Tracking
 
-| Topic        | Status        |
-|--------------|---------------|
-| HTML Basics  | 🔄 In progress|
+| Topic | Status |
+|------|------|
+| HTML Basics | 🔄 In Progress |
+| CSS Fundamentals | ⏳ Planned |
+| JavaScript Basics | ⏳ Planned |
 
 ---
 
-## 📬 Contact
+## 👨‍💻 Author
 
-Feel free to explore, fork, or reach out if you're on a similar learning journey!
+**Anuj Savita**
 
-> *"The best way to learn web dev is to build things, break them, and build them again."*
+- GitHub: https://github.com/anujsavita929-alt
+- Interests:
+  - Full Stack Development
+  - Game Development
+  - Machine Learning
+
+---
+
+## 💡 Note
+
+This repository is continuously updated as I practice and learn new web development concepts.
+
+> *"The best way to learn web development is to build things, break them, and build them again."*
