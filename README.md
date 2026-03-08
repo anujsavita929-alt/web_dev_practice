@@ -1,26 +1,55 @@
 # 🌐 Web Dev Practice
 
-A collection of hands-on web development exercises — built to learn, experiment, and grow.
+A personal collection of hands-on web development exercises — built to learn, experiment, and improve step by step.
 
 ---
 
 ## 📁 What's Inside
 
-This repository contains small, focused projects and exercises covering core web development concepts.
+Small, focused HTML practice files covering core concepts like semantic markup, forms, tables, lists, and basic page structure.
 
-Currently practicing:
+Current files:
 
-- **HTML** — Semantic structure, forms, accessibility
-- **CSS** — Layout, styling, responsiveness *(coming soon)*
-- **JavaScript** — DOM manipulation and interactivity *(planned)*
+- `excecise_1.html` → Basic HTML structure + headings, paragraphs, links
+- `excercise_2.html` → More practice with lists, images, tables, and forms
+
+(Spelling note: planning to rename → `exercise_1.html`, `exercise_2.html` soon)
+
+More coming soon:
+- **CSS** — Flexbox, Grid, responsive design, animations
+- **JavaScript** — DOM manipulation, events, simple interactivity
 
 ---
 
 ## 🎯 Purpose
 
-This repository serves as my **personal web development practice space**.
+This repo is my **learning journal** for frontend web development.
 
-Each folder represents a **separate exercise or mini project** where I experiment with different concepts while learning frontend development.
+Goals:
+- Master HTML fundamentals
+- Build good habits with clean, semantic code
+- Gradually add styling and interactivity
+- Track progress visibly
+
+---
+
+## 🗂️ Current Structure
+web_dev_practice/
+├── excecise_1.html
+├── excercise_2.html
+├── README.md
+└── (future folders: css/, js/, projects/, etc.)
+
+---
+The structure will grow as I add CSS, JS, and mini-projects.
+
+---
+
+## 🚀 How to Use / View
+
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/anujsavita929-alt/web_dev_practice.git
 
 Goals of this repository:
 
@@ -29,20 +58,7 @@ Goals of this repository:
 - Experiment with UI layouts and components
 - Track my progress while learning
 
----
-
-## 🗂️ Folder Structure
-
-```
-web_dev_practice/
-│
-├── html/
-│   ├── exercise1/
-│   ├── exercise2/
-│   └── ...
-│
-└── README.md
-```
+--
 
 > The structure will evolve as more exercises and topics are added.
 
