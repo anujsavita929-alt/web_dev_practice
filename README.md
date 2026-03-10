@@ -6,61 +6,52 @@ A personal collection of hands-on web development exercises — built to learn, 
 
 ## 📁 What's Inside
 
-Small, focused HTML practice files covering core concepts like semantic markup, forms, tables, lists, and basic page structure.
+Small, focused practice files covering core web development concepts.
 
-Current files:
+Current exercises include:
 
-- `excecise_1.html` → Basic HTML structure + headings, paragraphs, links
-- `excercise_2.html` → More practice with lists, images, tables, and forms
+- `exercise_1.html` → Basic HTML structure, headings, paragraphs, links
+- `exercise_2.html` → Lists, images, tables, and forms
 
-(Spelling note: planning to rename → `exercise_1.html`, `exercise_2.html` soon)
+More content will be added as I progress through my learning journey.
 
-More coming soon:
+Upcoming topics:
+
 - **CSS** — Flexbox, Grid, responsive design, animations
-- **JavaScript** — DOM manipulation, events, simple interactivity
+- **JavaScript** — DOM manipulation, events, interactive UI
+- **Mini Projects** — Small applications to apply concepts
 
 ---
 
 ## 🎯 Purpose
 
-This repo is my **learning journal** for frontend web development.
+This repository acts as my **learning journal for frontend web development**.
 
-Goals:
-- Master HTML fundamentals
-- Build good habits with clean, semantic code
-- Gradually add styling and interactivity
-- Track progress visibly
+Goals of this repository:
+
+- Strengthen web development fundamentals
+- Practice writing clean and structured code
+- Experiment with layouts and components
+- Track progress while learning
 
 ---
 
 ## 🗂️ Current Structure
+
+```
 web_dev_practice/
-├── excecise_1.html
-├── excercise_2.html
+│
+├── exercise_1.html
+├── exercise_2.html
 ├── README.md
-└── (future folders: css/, js/, projects/, etc.)
+│
+└── (future folders)
+    ├── css/
+    ├── js/
+    └── projects/
+```
 
----
-The structure will grow as I add CSS, JS, and mini-projects.
-
----
-
-## 🚀 How to Use / View
-
-1. Clone the repo:
-   ```bash
-   git clone https://github.com/anujsavita929-alt/web_dev_practice.git
-
-Goals of this repository:
-
-- Strengthen fundamentals of web development
-- Practice writing clean and structured code
-- Experiment with UI layouts and components
-- Track my progress while learning
-
---
-
-> The structure will evolve as more exercises and topics are added.
+The structure will evolve as more exercises and topics are added.
 
 ---
 
@@ -74,13 +65,13 @@ git clone https://github.com/anujsavita929-alt/web_dev_practice.git
 
 2. Open the project folder
 
-```
+```bash
 cd web_dev_practice
 ```
 
-3. Navigate to any exercise folder and open `index.html` in your browser.
+3. Open any `.html` file in your browser.
 
-You can also use **Live Server** extension in VS Code for easier development.
+You can also use the **Live Server extension in VS Code** for easier development.
 
 ---
 
@@ -91,6 +82,7 @@ You can also use **Live Server** extension in VS Code for easier development.
 | HTML Basics | 🔄 In Progress |
 | CSS Fundamentals | ⏳ Planned |
 | JavaScript Basics | ⏳ Planned |
+| Mini Projects | ⏳ Planned |
 
 ---
 
@@ -98,16 +90,15 @@ You can also use **Live Server** extension in VS Code for easier development.
 
 **Anuj Savita**
 
-- GitHub: https://github.com/anujsavita929-alt
-- Interests:
-  - Full Stack Development
-  - Game Development
-  - Machine Learning
+GitHub:  
+https://github.com/anujsavita929-alt
+
+Interests:
+
+- Full Stack Development
+- Game Development
+- Machine Learning
 
 ---
 
-## 💡 Note
-
-This repository is continuously updated as I practice and learn new web development concepts.
-
-> *"The best way to learn web development is to build things, break them, and build them again."*
+⭐ This repository will continue to grow as I learn and build more projects.
