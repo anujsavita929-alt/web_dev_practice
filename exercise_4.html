@@ -1,1 +1,73 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CSS Variables Demo</title>
+  <style>
+    /* 1. Define CSS Variables on :root (global scope) */
+    :root {
+      --bg-color: #f0f4ff;
+      --primary: #4f46e5;
+      --text-color: #1e1b4b;
+    }
+
+    /* 2. USE the variables with var() */
+    body {
+      background-color: var(--bg-color);
+      color: var(--text-color);
+      font-family: Georgia, serif;
+      text-align: center;
+      padding: 40px;
+      transition: background-color 0.4s, color 0.4s; /* smooth change */
+    }
+
+    h1 {
+      color: var(--primary);
+    }
+
+    .box {
+      background-color: var(--primary);
+      color: white;
+      width: 200px;
+      padding: 20px;
+      margin: 20px auto;
+      border-radius: 8px;
+    }
+
+    button {
+      background-color: var(--primary);
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      margin: 6px;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 15px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>CSS Variables 🎨</h1>
+  <p>Click a theme to change all colors at once!</p>
+
+  <div class="box">I change with the theme!</div>
+
+  <!-- 3. Buttons call JS to update the CSS variable values -->
+  <button onclick="setTheme('#f0f4ff', '#4f46e5', '#1e1b4b')">💜 Purple</button>
+  <button onclick="setTheme('#fff7ed', '#ea580c', '#431407')">🧡 Orange</button>
+  <button onclick="setTheme('#f0fdf4', '#16a34a', '#14532d')">💚 Green</button>
+  <button onclick="setTheme('#fdf2f8', '#db2777', '#500724')">🩷 Pink</button>
+
+  <script>
+    // 4. JS updates CSS variables on :root using setProperty
+    function setTheme(bg, primary, text) {
+      document.documentElement.style.setProperty('--bg-color', bg);
+      document.documentElement.style.setProperty('--primary', primary);
+      document.documentElement.style.setProperty('--text-color', text);
+    }
+  </script>
+
+</body>
+</html>
