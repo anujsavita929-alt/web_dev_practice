@@ -1,0 +1,48 @@
+body{
+    margin:0;
+    font-family: Arial, sans-serif;
+}
+
+/* Top green section */
+.top-section{
+    background: #1ec10f;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+
+/* Boxes */
+.box{
+    width: 320px;
+    height: 220px;
+}
+
+.blue{
+    background:#2f229c;
+}
+
+.red{
+    background:red;
+}
+
+/* Bottom black section */
+.bottom-section{
+    background:black;
+    height:200px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+/* Rounded button */
+.pill-btn{
+    padding:20px 80px;
+    border-radius:50px;
+    border:1px solid white;
+    background:#2f2b2b;
+    color:white;
+    font-size:14px;
+    letter-spacing:1px;
+}
