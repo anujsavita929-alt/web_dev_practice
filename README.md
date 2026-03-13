@@ -8,11 +8,13 @@ A personal collection of hands-on web development exercises — built to learn, 
 
 Small, focused practice files covering core web development concepts.
 
-Current exercises include:
+**Current exercises:**
 
-- `exercise_1.html` → Basic HTML structure, headings, paragraphs, links
-- `exercise_2.html` → Lists, images, tables, and forms
-
+- `excecise_1.html` → Media Vault: HTML tables displaying video & audio inventory with player columns
+- `excercise_2.html` → Lists, images, tables, and forms
+- `exercise_3.html` → Additional HTML structure practice
+- `exercise_4.html` → CSS Variables Demo (theme-switching interface with dynamic color updates)
+- `exercise_5.html` → Figma design to code (complex layout implementation)
 More content will be added as I progress through my learning journey.
 
 Upcoming topics:
@@ -41,8 +43,11 @@ Goals of this repository:
 ```
 web_dev_practice/
 │
-├── exercise_1.html
-├── exercise_2.html
+├── excecise_1.html
+├── excercise_2.html
+├── exercise_3.html
+├── exercise_4.html
+├── exercise_5.html
 ├── README.md
 │
 └── (future folders)
@@ -77,12 +82,15 @@ You can also use the **Live Server extension in VS Code** for easier development
 
 ## 📈 Progress Tracking
 
-| Topic | Status |
-|------|------|
-| HTML Basics | 🔄 In Progress |
-| CSS Fundamentals | ⏳ Planned |
-| JavaScript Basics | ⏳ Planned |
-| Mini Projects | ⏳ Planned |
+## 📈 Progress Tracking
+
+| Topic                  | Status                              | Notes / Milestones                          |
+|------------------------|-------------------------------------|---------------------------------------------|
+| HTML Basics            | ✅ Completed                        | Exercises 1–3 + base structure in others   |
+| CSS Fundamentals       | 🔄 In Progress                      | Exercise 4 (CSS variables, themes), Exercise 5 (Figma layout implementation) |
+| Responsive Design      | 🔄 In Progress (early stage)        | Starting to appear in Exercise 5           |
+| JavaScript Basics      | ⏳ Planned                          | No JS files or DOM interaction yet         |
+| Mini Projects          | ⏳ Planned                          | Next logical step after CSS                |
 
 ---
 
